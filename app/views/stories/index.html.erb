@@ -1,0 +1,10 @@
+<h1>Stories</h1>
+
+<p>Stories coming soon...</p>
+
+<ul>
+	<% @stories.each do |story| %>
+		<li><%= story["data"]["title"]%></li>
+	<% end %>	 
+
+</ul>
